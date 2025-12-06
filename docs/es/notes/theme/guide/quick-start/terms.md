@@ -5,13 +5,13 @@ permalink: /es/guide/terms/
 createTime: 2025/09/5 15:10:00
 ---
 
-Versión: 1.0
+Versión: 1.1.4
 
-**Fecha de entrada en vigor: 2025-09-05**
+**Fecha de entrada en vigor: 2025-12-06**
 
 ## 1. Naturaleza del proyecto
 
-Getty es software de código abierto (licencia MIT). Puedes ejecutarlo self‑host o usar una instancia hosted operada por terceros. Estos Términos regulan el uso de la aplicación y complementan la Política de Privacidad (\[ver Política de Privacidad](/es/guide/privacypolicy/)).
+Getty es software de código abierto (licencia AGPL v3). Puedes ejecutarlo self‑host o usar una instancia hosted operada por terceros. Estos Términos regulan el uso de la aplicación y complementan la Política de Privacidad (\[ver Política de Privacidad](/es/guide/privacypolicy/)).
 
 ## 2. Aceptación
 
@@ -19,7 +19,7 @@ Al usar getty (cualquier modalidad) aceptas íntegramente estos Términos. Si no
 
 ## 3. Licencia y código abierto
 
-El código se distribuye bajo MIT: sin garantías; uso bajo tu propio riesgo. Nada aquí limita ni modifica los derechos otorgados por la licencia MIT.
+El código se distribuye bajo AGPL v3: sin garantías; uso bajo tu propio riesgo. Nada aquí limita ni modifica los derechos otorgados por la licencia AGPL v3.
 
 ## 4. Responsabilidad del usuario sobre datos
 
@@ -43,6 +43,12 @@ Está prohibido:
 - Intentar vulnerar la seguridad de instancias ajenas.
 - Realizar scraping o abuso que genere carga excesiva en APIs de terceros.
 - Eludir limitaciones técnicas deliberadamente.
+
+::: important
+
+En la versión hosted de getty, el uso para actividades ilegales puede llevar a la suspensión de la cuenta o funcionalidades.
+
+:::
 
 ## 8. Seguridad
 
@@ -77,7 +83,11 @@ Eres responsable de cualquier obligación fiscal o regulatoria derivada de propi
 
 Puedes dejar de usar el software en cualquier momento. El operador de una instancia hosted puede suspender acceso por violaciones a estos Términos.
 
-## 15. Contacto
+## 15. Ley aplicable y jurisdicción
+
+Estos Términos se rigen por las leyes de Venezuela. Cualquier disputa relacionada con el servicio hosted se someterá a los tribunales competentes de dicha jurisdicción, salvo que la ley imperativa disponga lo contrario.
+
+## 16. Contacto
 
 Dudas sobre estos Términos: hello@getty.sh
 

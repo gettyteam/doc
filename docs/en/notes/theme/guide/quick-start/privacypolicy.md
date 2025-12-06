@@ -5,13 +5,13 @@ permalink: /en/guide/privacypolicy/
 createTime: 2025/09/5 15:00:00
 ---
 
-Version: 1.0
+Version: 1.1.4
 
-**Effective Date: 2025-09-05**
+**Effective Date: 2025-12-06**
 
 1. ### Identity and nature of the project
 
-Getty is an open‑source application (MIT) that lets you manage tips, tip goals, chat, notifications, and widgets for live streams—primarily on Odysee. All code is public and auditable. Users can:
+Getty is an open‑source application (AGPL v3) that lets you manage tips, tip goals, chat, notifications, and widgets for live streams—primarily on Odysee. All code is public and auditable. Users can:
 
 - Run their own self‑hosted instance (server or localhost).
 - Use a third‑party hosted instance, always under the same license and without proprietary modifications.
@@ -28,7 +28,7 @@ Getty is an open‑source application (MIT) that lets you manage tips, tip goals
 
 **3.1 Basic operation (self‑host / hosted)**
 
-- **Session token:** maintains user authentication; expires on logout or application restart (depending on configuration).
+- **Session token and local storage:** technical cookies or LocalStorage are used solely to maintain authentication and preferences (theme, language). They are not used for tracking.
 - **Wallet address / transactions:** used to display and calculate tips and goal progress; only read access via public gateways (e.g., Arweave).
 - **User configuration (tip goals, text, language, etc.):** personalizes the experience and is stored in a JSON file.
 - **Webhook tokens and URLs (Discord, Telegram, etc.):** used solely to send notifications to user‑configured services; never repurposed.
@@ -98,6 +98,7 @@ Odysee is an independent controller of the original account data. Getty only que
 
 - **Gateways/blockchain:** read‑only queries to public APIs to obtain transactions.
 - **User‑configured webhook services (Discord, Telegram, etc.):** only the fields the user chooses to send (message, amount, etc.).
+- **Legal requirements:** if requested by a competent authority under a valid court order, we may be obligated to disclose available technical records (logs).
 
 9. ### User rights (where applicable)
 
@@ -113,18 +114,22 @@ Odysee is an independent controller of the original account data. Getty only que
 - **Access revocation:** revoking the token/key in Odysee immediately invalidates Getty’s query capability.
 - **Local deletion:** removing configuration and cache files purges residual persistence.
 
-10. ### Open‑source verifiability
+10. ### Data Security
+
+Technical measures are applied to protect information, including the use of encryption in transit (HTTPS) for the hosted version and security recommendations for self-hosted instances. However, no system is 100% infallible.
+
+11. ### Open‑source verifiability
 
 All source code is available in the public repository. The community may audit the absence of hidden trackers and report vulnerabilities or privacy issues through issues or responsible disclosure.
 
-11. ### Policy changes
+12. ### Policy changes
 
 Any change will be published with a new effective date and versioned in the repository. Users should review the version corresponding to the software they are running.
 
-12. ### Acceptance
+13. ### Acceptance
 
-Use of Getty implies acceptance of this privacy policy. If any clause is not acceptable, the user may run their own self‑hosted instance and adapt configuration to their needs, or stop using the hosted version.
+Use of getty implies acceptance of this privacy policy. If any clause is not acceptable, the user may run their own self‑hosted instance and adapt configuration to their needs, or stop using the hosted version.
 
-13. ### Contact
+14. ### Contact
 
 Questions about this privacy policy or data handling? Email: **hello@getty.sh**

@@ -5,13 +5,13 @@ permalink: /es/guide/privacypolicy/
 createTime: 2025/09/5 15:00:00
 ---
 
-Versión: 1.0
+Versión: 1.1.4
 
-**Fecha de entrada en vigor: 2025-09-05**
+**Fecha de entrada en vigor: 2025-12-06**
 
 1. ### Identidad y naturaleza del proyecto
 
-Getty es una aplicación de código abierto (MIT) que permite gestionar propinas, objetivos de propina, chat, notificaciones y widgets en transmisiones en vivo, principalmente en Odysee. Todo el código está disponible públicamente y es auditable. Los usuarios pueden:
+Getty es una aplicación de código abierto (AGPL v3) que permite gestionar propinas, objetivos de propina, chat, notificaciones y widgets en transmisiones en vivo, principalmente en Odysee. Todo el código está disponible públicamente y es auditable. Los usuarios pueden:
 
 - Ejecutar una instancia propia (self‑host) en su propio servidor o en localhost.
 - Utilizar una instancia alojada por terceros (hosted), siempre bajo la misma licencia y sin modificaciones propietarias.
@@ -28,7 +28,7 @@ Getty es una aplicación de código abierto (MIT) que permite gestionar propinas
 
 **3.1 Operación básica (self‑host / hosted)**
 
-- **Token de sesión:** mantiene la autenticación del usuario y caduca al cerrar sesión o al reiniciar la aplicación (según configuración).
+- **Token de sesión y almacenamiento local:** se utilizan cookies técnicas o LocalStorage únicamente para mantener la autenticación y preferencias (tema, idioma). No se usan para rastreo.
 - **Dirección de wallet / transacciones:** se muestra y calcula propinas y objetivos de propina; el acceso es solo de lectura a gateways públicos (por ejemplo, Arweave).
 - **Configuración del usuario (metas de propina, texto, idioma, etc.):** personaliza la experiencia y se guarda en un archivo JSON.
 - **Tokens y URLs de webhook (Discord, Telegram, etc.):** se utilizan únicamente para enviar notificaciones a los servicios que el propio usuario haya configurado; nunca se reutilizan para otro fin.
@@ -98,6 +98,7 @@ Odysee es un controlador independiente de los datos originales de la cuenta. Get
 
 - **Gateways/blockchain:** consultas de solo lectura a APIs públicas para obtener transacciones.
 - **Servicios webhook configurados por el usuario (Discord, Telegram, etc.):** sólo los campos que el usuario decide enviar (mensaje, monto, etc.).
+- **Requerimientos legales:** si una autoridad competente lo solicita bajo orden judicial válida, se podría estar obligado a revelar los registros técnicos disponibles (logs).
 
 9. ### Derechos del usuario (cuando aplica)
 
@@ -113,18 +114,22 @@ Odysee es un controlador independiente de los datos originales de la cuenta. Get
 - **Revocación de acceso:** al revocar el token/clave en Odysee se invalida inmediatamente la capacidad de consulta en getty.
 - **Borrado local:** eliminar archivos de configuración y caché purga cualquier persistencia residual.
 
-10. ### Verificabilidad del código abierto
+10. ### Seguridad de los datos
+
+Se aplican medidas técnicas para proteger la información, incluyendo el uso de cifrado en tránsito (HTTPS) para la versión hosted y recomendaciones de seguridad para instancias self-host. Sin embargo, ningún sistema es 100% infalible.
+
+11. ### Verificabilidad del código abierto
 
 Todo el código fuente está disponible en el repositorio público. La comunidad puede auditar la ausencia de rastreadores ocultos y reportar vulnerabilidades o problemas de privacidad mediante issues o divulgaciones responsables.
 
-11. ### Modificaciones de la política
+12. ### Modificaciones de la política
 
 Cualquier cambio será publicado con una nueva fecha de vigencia y versionado en el repositorio. Los usuarios deben revisar la versión correspondiente al software que estén ejecutando.
 
-11. ### Aceptación
+13. ### Aceptación
 
-El uso de Getty implica la aceptación de esta política de privacidad. Si alguna cláusula no resulta aceptable, el usuario puede ejecutar su propia instancia self‑host y adaptar la configuración a sus necesidades, o dejar de utilizar la versión hosted.
+El uso de getty implica la aceptación de esta política de privacidad. Si alguna cláusula no resulta aceptable, el usuario puede ejecutar su propia instancia self‑host y adaptar la configuración a sus necesidades, o dejar de utilizar la versión hosted.
 
-13. ### Contacto
+14. ### Contacto
 
 Si tiene alguna pregunta sobre nuestra política de privacidad o sobre cómo se recopilan y procesan los datos, envíenos un correo electrónico: **hello@getty.sh**

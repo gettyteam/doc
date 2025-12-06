@@ -2,6 +2,8 @@
 
 # Welcome to getty documentation
 
+"This repository contains the documentation and website source for Getty. The content of this repository is licensed under MIT. The getty software itself is licensed under AGPLv3."
+
 # getty (λ)
 
 The platform tools for live streaming on Odysee. This includes overlays, tip alerts, chat, giveaway system, creator analytics and much more. Now integrated with **Wander Wallet** for login and encrypted data isolation with security tokens for your widgets and overlays.

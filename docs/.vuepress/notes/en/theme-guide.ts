@@ -16,7 +16,7 @@ export const themeGuide: ThemeCollectionItem = defineCollection({
         { text: 'Installation', link: '/en/guide/usage/' },
         { text: 'The Widgets', link: '/en/guide/widgets/' },
         { text: 'App Structure', link: '/en/guide/project-structure/' },
-        { text: 'MIT License', link: '/en/guide/license/' },
+        { text: 'AGPL v3 License', link: '/en/guide/license/' },
         { text: 'Terms of Service', link: '/en/guide/terms/' },
         { text: 'Privacy Policy', link: '/en/guide/privacypolicy/' },
       ],

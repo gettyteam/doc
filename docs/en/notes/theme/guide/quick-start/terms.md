@@ -5,13 +5,13 @@ permalink: /en/guide/terms/
 createTime: 2025/09/5 15:10:00
 ---
 
-Version: 1.0
+Version: 1.1.4
 
-**Effective Date: 2025-09-05**
+**Effective Date: 2025-12-06**
 
 ## 1. Nature of the Project
 
-Getty is open‑source software (MIT license). You can run it self‑hosted or use a hosted instance operated by third parties. These Terms govern use of the application and complement the Privacy Policy ([see Privacy Policy](/en/guide/privacypolicy/)).
+Getty is open‑source software (AGPL v3 license). You can run it self‑hosted or use a hosted instance operated by third parties. These Terms govern use of the application and complement the Privacy Policy ([see Privacy Policy](/en/guide/privacypolicy/)).
 
 ## 2. Acceptance
 
@@ -19,7 +19,7 @@ By using Getty (in any mode) you fully accept these Terms. If you do not accept 
 
 ## 3. License and Open Source
 
-The code is distributed under MIT: no warranties; use at your own risk. Nothing here limits or modifies the rights granted by the MIT license.
+The code is distributed under AGPL v3: no warranties; use at your own risk. Nothing here limits or modifies the rights granted by the AGPL v3 license.
 
 ## 4. User Responsibility for Data
 
@@ -43,6 +43,12 @@ You must not:
 - Attempt to compromise the security of other instances.
 - Perform scraping or abuse that generates excessive load on third‑party APIs.
 - Deliberately circumvent technical limitations.
+
+::: important
+
+In the hosted version of getty, use for illegal activities may lead to suspension of the account or features.
+
+:::
 
 ## 8. Security
 
@@ -71,9 +77,13 @@ Community support is offered with no obligation to respond. Issues and pull requ
 
 ## 13. Legal and Tax Compliance
 
-You are responsible for any tax or regulatory obligations arising from tips, donations, or other flows displayed through Getty.
+## 15. Governing Law and Jurisdiction
 
-## 14. Termination
+These Terms are governed by the laws of Venezuela. Any dispute related to the hosted service shall be submitted to the competent courts of such jurisdiction, unless mandatory law provides otherwise.
+
+## 16. Contact
+
+Questions about these Terms: hello@getty.sh
 
 You may stop using the software at any time. The operator of a hosted instance may suspend access for violations of these Terms.
 
