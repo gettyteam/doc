@@ -13,9 +13,8 @@ export const themeGuide: ThemeCollectionItem = defineCollection({
       icon: 'carbon:idea',
       items: [
         { text: 'Introduction', link: '/en/guide/intro/' },
-        { text: 'Installation', link: '/en/guide/usage/' },
+        { text: 'Configuration', link: '/en/guide/usage/' },
         { text: 'The Widgets', link: '/en/guide/widgets/' },
-        { text: 'App Structure', link: '/en/guide/project-structure/' },
         { text: 'AGPL v3 License', link: '/en/guide/license/' },
         { text: 'Terms of Service', link: '/en/guide/terms/' },
         { text: 'Privacy Policy', link: '/en/guide/privacypolicy/' },

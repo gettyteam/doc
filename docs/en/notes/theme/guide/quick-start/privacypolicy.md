@@ -1,5 +1,5 @@
 ---
-title: privacypolicy
+title: Privacy Policy
 icon: material-symbols:article-outline
 permalink: /en/guide/privacypolicy/
 createTime: 2025/09/5 15:00:00

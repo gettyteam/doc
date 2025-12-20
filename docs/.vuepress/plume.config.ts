@@ -30,7 +30,7 @@ export default defineThemeConfig({
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
         name: 'getty',
-        description: 'The platform tools for live streaming on Odysee. This includes overlays, tip alerts, chat, giveaway system, creator analytics and more.',
+        description: 'Platform with tools for live streaming and Odysee creators. Includes overlays, tip alerts, chat, a giveaway system, creator analytics, and much more.',
         // circle: true,
         // location: '',
         // organization: '',
@@ -40,7 +40,7 @@ export default defineThemeConfig({
   collections: enCollections,
 
       footer: {
-        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/gettyteam/getty">getty</a> - This is not an official Odysee product. With love for Odysee ❤️ - Email: hello@getty.sh',
+        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/gettyteam/getty">getty</a> - With love for Odysee ❤️ - Email: hello@getty.sh',
         copyright: '',
       },
 
@@ -55,14 +55,14 @@ export default defineThemeConfig({
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
         name: 'getty',
-        description: 'La plataforma de herramientas para la transmisión en vivo en Odysee. Esto incluye overlays, alertas de propinas, chat, sistema de sorteos, analíticas de creador y mucho más.',
+        description: 'La plataforma con herramientas para transmisiones en vivo y creadores en Odysee. Incluye overlays, alertas de propinas, chat, sistema de sorteos, analíticas de creador y mucho más.',
       },
 
   navbar: esNavbar,
   collections: esCollections,
 
       footer: {
-        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/gettyteam/getty">getty</a> - No es un producto oficial de Odysee. Con cariño para Odysee ❤️ - Email: hello@getty.sh',
+        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/gettyteam/getty">getty</a> - Con cariño para Odysee ❤️ - Email: hello@getty.sh',
         copyright: '',
       },
     },

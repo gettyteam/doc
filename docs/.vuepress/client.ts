@@ -1,3 +1,5 @@
+/// <reference path="./theme/shim.d.ts" />
+
 import { defineClientConfig } from 'vuepress/client'
 import { effectComponents } from '@internal/home-hero-effects'
 import CustomTintPlate from './theme/background/TintPlate.vue'
