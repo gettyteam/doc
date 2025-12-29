@@ -62,6 +62,6 @@ Search and select images or audio with Wuzzy directly from the settings of your 
 
 With getty v1.1.4 "Handshake", the update not only introduces powerful tools like global search and Wuzzy with Arweave, but also rebuilds the platform's foundations on a modern, reactive, and maintainable architecture.
 
-**Log in to getty and discover all the improvements that help your streams reach new levels.**
+**Log in on getty and discover all the improvements that help your streams reach new levels.**
 
 ### λ

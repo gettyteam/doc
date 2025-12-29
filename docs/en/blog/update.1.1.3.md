@@ -71,6 +71,6 @@ Key elements such as icons, text, and color combinations received refinements on
 
 Getty v1.1.3 fine-tunes the tools you need to make every live stream even better. From faster, deeper data analysis to a new way to showcase your work with a public profile, these updates are designed to give you the control and clarity you deserve.
 
-**Log in to getty and explore all the improvements that help your streams reach new heights.**
+**Log in on getty and explore all the improvements that help your streams reach new heights.**
 
 ### λ
