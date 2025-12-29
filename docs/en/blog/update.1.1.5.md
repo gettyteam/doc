@@ -3,7 +3,7 @@ title: getty v1.1.5
 date: 2025-12-09T00:00:00.000Z
 permalink: /en/blog/update.1.1.5/
 createTime: 2025/12/29 16:30
-cover: https://thumbs.odycdn.com/74c4e964dcc1d78bb45403603f120d61.webp
+cover: https://thumbs.odycdn.com/a74c84630de04f0be2ec54a7a853ae7f.webp
 coverStyle:
   layout: left
   width: 200
