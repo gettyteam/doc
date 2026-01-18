@@ -32,7 +32,7 @@ Nada en esta documentación limita, amplía o modifica los derechos otorgados po
 
 ### Licencia propietaria actual
 
-© [2026] [Lambda Studio]. Todos los derechos reservados.
+© 2026 getty (λ) Lambda Studio. Todos los derechos reservados.
 
 - Se prohíbe:
   - Distribuir, copiar, modificar o reverse engineering
