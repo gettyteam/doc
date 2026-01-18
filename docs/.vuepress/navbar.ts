@@ -21,11 +21,6 @@ export const enNavbar: ThemeNavItem[] = defineNavbarConfig([
     link: 'https://app.getty.sh/',
   },
   {
-    text: `${version}`,
-    icon: 'codicon:versions',
-    link: 'https://github.com/gettyteam/getty/releases'
-  },
-  {
     text: 'Odysee',
     icon: 'qlementine-icons:play-stroke-16',
     link: 'https://odysee.com/',
@@ -49,11 +44,6 @@ export const esNavbar: ThemeNavItem[] = defineNavbarConfig([
     text: 'App',
     icon: 'fluent:rocket-24-regular',
     link: 'https://app.getty.sh/',
-  },
-  {
-    text: `${version}`,
-    icon: 'codicon:versions',
-    link: 'https://github.com/gettyteam/getty/releases'
   },
   {
     text: 'Odysee',

@@ -10,21 +10,15 @@ coverStyle:
   compact: true
 ---
 
-## Una app imprescindible y única para el streamer en Odysee.
+## Una aplicación esencial y única para los streamers y creadores de Odysee.
 
-En el competitivo mundo del streaming, contar con las ==herramientas adecuadas== puede marcar la diferencia entre un contenido amateur y uno profesional. Getty ha sido creada como la primera, más completas y accesible aplicación para streamers de Odysee, ofreciendo soluciones integrales que simplifican la transmisión en vivo.
+En el competitivo mundo del streaming y la creación de contenidos, contar con las herramientas adecuadas puede marcar la diferencia entre un contenido amateur y uno profesional. La plataforma getty se creó como la primera aplicación completa y accesible para streamers y creadores de Odysee, ofreciendo soluciones integrales que simplifican el streaming en directo y las estadísticas de los canales.
 
-Desde alertas interactivas de monetización y widgets personalizados, todo para optimizar tus directos sin necesidad de conocimientos técnicos avanzados.
+Desde alertas interactivas de monetización hasta widgets personalizados, todo está diseñado para optimizar tus streams sin necesidad de conocimientos técnicos avanzados.
 
-::: important
+Las alertas de propinas en tiempo real con tokens AR (arweave), los objetivos de propinas y el chat personalizado ofrecen múltiples formas de conectar más profundamente con tu comunidad. Estas funciones son esenciales para aquellos que buscan convertir su pasión por el streaming en una carrera más sostenible.
 
-La monetización descentralizada es única para creadores y streamers en Odysee. Con herramientas como alertas de propinas y sorteos con getty, los streamers pueden aumentar fácilmente la interacción de su audiencia y el crecimiento de sus ingresos.
-
-:::
-
-Las alertas de propinas en tiempo real con tokens AR (arweave), los objetivos de propinas y el chat personalizado ofrecen múltiples maneras de conectar más profundamente con su comunidad. Estas funciones son esenciales para quienes buscan convertir su pasión por el streaming en una profesión más sostenible.
-
-Además de sus productos principales, getty ha innovado con soluciones directas. Esta herramienta es ideal para streamers que buscan ==flexibilidad== o quieren complementar sus transmisiones con contenido. La incorporación de overlays demuestran el compromiso de getty con la accesibilidad y la creatividad.
+Además de sus productos principales, getty ha innovado con soluciones sencillas. Esta herramienta es ideal para streamers que buscan flexibilidad o que desean complementar sus transmisiones con contenido adicional. La incorporación de superposiciones demuestra el compromiso de getty con la accesibilidad y la creatividad.
 
 En un mercado en constante evolución, getty será un referente gracias a su adaptabilidad y enfoque en el usuario. Ya sea para principiantes o profesionales, sus productos ofrecen un equilibrio perfecto entre ==funcionalidad== y facilidad de uso. Para los streamers que buscan elevar su contenido, dominar las herramientas de getty no es una opción, sino una necesidad en el camino al éxito.
 

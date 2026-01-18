@@ -7,7 +7,7 @@ createTime: 2025/09/5 15:10:00
 
 Version: 1.1.4
 
-**Effective Date: 2025-12-06**
+**Effective Date: 2026-01-18**
 
 ## 1. Nature of the Project
 
@@ -17,9 +17,27 @@ Getty is open‑source software (AGPL v3 license). You can run it self‑hosted 
 
 By using Getty (in any mode) you fully accept these Terms. If you do not accept them, do not use the hosted instance and/or stop running the software.
 
-## 3. License and Open Source
+## 3. License
 
-The code is distributed under AGPL v3: no warranties; use at your own risk. Nothing here limits or modifies the rights granted by the AGPL v3 license.
+This software is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)** up to version 1.1.5.
+
+### For users of this application:
+
+- You have the right to obtain the source code for version 1.1.5 of getty.
+- You can request a copy of the source code by contacting the maintainer.
+- You have the right to modify and redistribute the software under the same terms.
+
+**Disclaimer:** This software is provided WITHOUT WARRANTY; use at your own risk.
+Nothing in this documentation limits, extends, or modifies the rights granted by the AGPL v3.
+
+### Current proprietary license
+
+© [2026] [Lambda Studio]. All rights reserved.
+
+- The following is prohibited:
+  - Distributing, copying, modifying, or reverse engineering
+  - Using the code outside of the authorized service
+  - Accessing the source code without express authorization
 
 ## 4. User Responsibility for Data
 

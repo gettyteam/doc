@@ -7,7 +7,7 @@ createTime: 2025/09/5 15:10:00
 
 Versión: 1.1.4
 
-**Fecha de entrada en vigor: 2025-12-06**
+**Fecha de entrada en vigor: 2026-01-18**
 
 ## 1. Naturaleza del proyecto
 
@@ -17,9 +17,27 @@ Getty es software de código abierto (licencia AGPL v3). Puedes ejecutarlo self�
 
 Al usar getty (cualquier modalidad) aceptas íntegramente estos Términos. Si no los aceptas, no utilices la instancia hosted y/o deja de ejecutar el software.
 
-## 3. Licencia y código abierto
+## 3. Licencia
 
-El código se distribuye bajo AGPL v3: sin garantías; uso bajo tu propio riesgo. Nada aquí limita ni modifica los derechos otorgados por la licencia AGPL v3.
+Este software está licenciado bajo la **GNU Affero General Public License v3.0 (AGPL-3.0)** hasta la versión 1.1.5.
+
+### Para usuarios de esta aplicación:
+
+- Tienes derecho a obtener el código fuente de la versión 1.1.5 de getty.
+- Puedes solicitar una copia del código fuente contactando al mantenedor.
+- Tienes derecho a modificar y redistribuir el software bajo los mismos términos.
+
+**Aviso legal:** Este software se proporciona SIN GARANTÍA alguna; usa bajo tu propio riesgo.
+Nada en esta documentación limita, amplía o modifica los derechos otorgados por la AGPL v3.
+
+### Licencia propietaria actual
+
+© [2026] [Lambda Studio]. Todos los derechos reservados.
+
+- Se prohíbe:
+  - Distribuir, copiar, modificar o reverse engineering
+  - Usar el código fuera del servicio autorizado
+  - Acceder al código fuente sin autorización expresa
 
 ## 4. Responsabilidad del usuario sobre datos
 

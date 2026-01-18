@@ -8,7 +8,7 @@ config:
     hero:
       name: Complete app with tools
       tagline: for Odysee livestreams
-      text: Free, open source and no registration!
+      text: Now with channel analytics and more!
       actions:
         - theme: brand
           text: Documentation

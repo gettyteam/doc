@@ -9,7 +9,7 @@ export default defineThemeConfig({
   appearance: true,
 
   social: [
-    { icon: 'github', link: 'https://github.com/gettyteam/getty' },
+    { icon: 'github', link: 'https://github.com/gettyteam/' },
     { icon: 'twitter', link: 'https://x.com/getty_sh' },
   ],
 
@@ -30,7 +30,7 @@ export default defineThemeConfig({
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
         name: 'getty',
-        description: 'Platform with tools for live streaming and Odysee creators. Includes overlays, tip alerts, chat, a giveaway system, creator analytics, and much more.',
+        description: 'Platform of tools for live streaming and channels on Odysee. This includes overlays, tip alerts, chat, giveaway system, creator analytics and more. ',
         // circle: true,
         // location: '',
         // organization: '',
@@ -40,7 +40,7 @@ export default defineThemeConfig({
   collections: enCollections,
 
       footer: {
-        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/gettyteam/getty">getty</a> - With love for Odysee ❤️ - Email: hello@getty.sh',
+        message: 'Copyright © 2026 getty (λ) <a target="_blank" href="https://github.com/gettyteam/">Lambda Studio</a> - Email: hello@getty.sh',
         copyright: '',
       },
 
@@ -55,14 +55,14 @@ export default defineThemeConfig({
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
         name: 'getty',
-        description: 'La plataforma con herramientas para transmisiones en vivo y creadores en Odysee. Incluye overlays, alertas de propinas, chat, sistema de sorteos, analíticas de creador y mucho más.',
+        description: 'Plataforma de herramientas para transmisiones en vivo y canales en Odysee. Esto incluye overlays, alertas de propinas, chat, sistema de sorteos, analíticas de creador y más.',
       },
 
   navbar: esNavbar,
   collections: esCollections,
 
       footer: {
-        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/gettyteam/getty">getty</a> - Con cariño para Odysee ❤️ - Email: hello@getty.sh',
+        message: 'Copyright © 2026 getty (λ) <a target="_blank" href="https://github.com/gettyteam/">Lambda Studio</a> - Email: hello@getty.sh',
         copyright: '',
       },
     },

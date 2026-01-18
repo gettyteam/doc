@@ -8,7 +8,7 @@ config:
     hero:
       name: Una aplicación completa
       tagline: para directos en Odysee
-      text: Gratis, de código abierto y sin registro.
+      text: ¡Ahora con analíticas de canal y más!
       actions:
         - theme: brand
           text: Documentación
