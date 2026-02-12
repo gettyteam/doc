@@ -5,131 +5,111 @@ permalink: /en/guide/privacypolicy/
 createTime: 2025/09/5 15:00:00
 ---
 
-Version: 1.1.4
+Version: 1.1.6
 
-**Effective Date: 2025-12-06**
+**Effective Date: 2025-2-12**
 
-1. ### Identity and nature of the project
+1. ### Identity and Nature of the Project
 
-Getty is an open‑source application (AGPL v3) that lets you manage tips, tip goals, chat, notifications, and widgets for live streams—primarily on Odysee. All code is public and auditable. Users can:
+The getty software is an open-source application (AGPL v3) that allows managing tips, tip goals, chat, notifications, and widgets in live streams.
 
-- Run their own self‑hosted instance (server or localhost).
-- Use a third‑party hosted instance, always under the same license and without proprietary modifications.
+2. ### Data Protection Principles
 
-2. ### Data protection principles
+- **Minimization:** Only strictly necessary data for the functionality enabled by the user is collected.
+- **Transparency:** All data processing logic is in the public repository; anyone can review it.
+- **User Control:** Configuration data and tokens remain in local files under the user's control.
+- **No Commercial Exploitation:** Personal data is not sold, rented, or used for commercial purposes.
+- **Independence:** No external trackers (Google Analytics, etc.) or third-party analytics SDKs are included.
 
-- **Data minimization:** only the data strictly required for the enabled functionality is collected.
-- **Transparency:** all processing logic lives in the public repository; anyone can review it.
-- **User control:** configuration data and tokens remain in local files under the user’s control.
-- **No commercial exploitation:** personal data is not sold, rented, or monetized.
-- **Independence:** no external trackers (Google Analytics, etc.) or third‑party analytics SDKs are included.
+3. ### What Data is Processed?
 
-3. ### What data is processed?
+**3.1 Basic Operation (self‑host / hosted)**
 
-**3.1 Basic operation (self‑host / hosted)**
+- **Session Token and Local Storage:** Technical cookies or LocalStorage are used solely to maintain authentication and preferences (theme, language). They are not used for tracking.
+- **Wallet Address / Transactions:** Tips and tip goals are displayed and calculated; access is read-only to public gateways (e.g., Arweave).
+- **User Configuration (tip goals, text, language, etc.):** Customizes the experience and is saved in a JSON file.
+- **Webhook Tokens and URLs (Discord, Telegram, etc.):** Used solely to send notifications to services configured by the user; never reused for any other purpose.
 
-- **Session token and local storage:** technical cookies or LocalStorage are used solely to maintain authentication and preferences (theme, language). They are not used for tracking.
-- **Wallet address / transactions:** used to display and calculate tips and goal progress; only read access via public gateways (e.g., Arweave).
-- **User configuration (tip goals, text, language, etc.):** personalizes the experience and is stored in a JSON file.
-- **Webhook tokens and URLs (Discord, Telegram, etc.):** used solely to send notifications to user‑configured services; never repurposed.
+**3.2 Technical Data (primarily in hosted)**
 
-**3.2 Technical data (primarily in hosted mode)**
+- Server Logs: Timestamp, requested path, and HTTP response code.
+- Aggregated Internal Metrics (process execution counts).
 
-- Server logs: timestamp, requested path, HTTP status code.
-- Aggregated internal metrics (process execution counts).
+**3.3 What is Not Collected**
 
-**3.3 What is not collected**
+- Behavioral profiles are not collected.
+- Third-party tracking cookies are not integrated.
+- Deliberate fingerprinting is not employed.
+- External analytics SDKs are not used.
 
-- No behavioral profiling.
-- No third‑party tracking cookies.
-- No deliberate fingerprinting.
-- No external analytics SDKs.
+**3.4 Data Obtained via Odysee (APIs / backend)**
 
-**3.4 Data obtained via Odysee (APIs / backend)**
+The getty software acts as a client querying data from Odysee. Depending on enabled features, the following may be retrieved (usually public):
 
-Getty acts as a client querying data from Odysee. Depending on enabled features, it may retrieve (typically public) data:
+- Channel/Profile Metadata (name, description, image, content or livestream identifiers).
+- Public tip/support info / transactions associated with the channel to calculate goals and show summary history.
+- Status or identifiers of live streams and recent publications.
 
-- Channel / profile metadata (name, description, image, content or livestream identifiers).
-- Public tips/supports / transactions associated with the channel for goal calculation and summary display.
-- Live stream states or identifiers and recent publication references.
+==No permanent copy is stored: an ephemeral cache is maintained for performance.==
 
-==No permanent copy is stored: an ephemeral cache is kept for performance.==
+**3.5 Integration and Roles**
 
-**3.5 Integration and roles**
+Odysee is an independent controller of the account's original data. Getty only queries and renders data (separate controller for local configuration entered by the user). Rectification, update, or deletion of profile data, content, or transactions must be managed directly on Odysee. Requests to Odysee infrastructure may involve international transfers per their policies; reviewing their official privacy policy is recommended.
 
-Odysee is an independent controller of the original account data. Getty only queries and renders data (it is a separate controller for the local configuration the user provides). Rectification, update, or deletion of profile, content, or transaction data must be carried out directly with Odysee. Requests to Odysee’s infrastructure may involve international transfers under their policies; users should review Odysee’s official privacy policy.
-
-4. ### Differences: Self‑host vs Hosted
-
-**Self‑host:**
-
-- All files (config/, data/) remain on your machine/server.
-- Full control over logs, deletion, and persistence.
-- You may audit and wipe data at any time.
-
-**Hosted:**
-
-- Depends on the operator’s retention policy.
-- The operator may apply additional measures (rate limiting, perimeter security) producing temporary logs.
-
-5. ### Purposes
+4. ### Purposes
 
 - Authentication and session management.
-- Display and update of widgets (chat, tips, goals).
-- Sending notifications to user‑configured external services (e.g., Discord).
-- Calculation and display of state (latest tip, goal progress, summarized history).
+- Displaying and updating widgets (chat, tips, goals).
+- Sending notifications to external services configured by the user (e.g., Discord).
+- Status calculation and visualization (last tip, goal progress, summary history).
 
-6. ### Legal basis (for GDPR or similar jurisdictions)
+5. ### Legal Basis (for jurisdictions with GDPR or similar regulations)
 
-- **Use of the application and its features:** contract performance (user accepts the policy by using Getty).
-- **Recording of technical logs:** legitimate interest (security, debugging).
-- **Processing of wallets and user‑provided webhooks:** explicit consent (user voluntarily supplies them).
-- **Temporary cache of public Odysee data:** legitimate interest (performance and reduction of redundant requests, minimizing load and latency).
+- **Use of the Application and Features:** Contract execution (user accepts the policy by using getty).
+- **Technical Log Records:** Legitimate interest (security, debugging).
+- **Processing of User-Provided Wallets and Webhooks:** Explicit consent (user provides them voluntarily).
+- **Temporary Cache of Public Odysee Data:** Legitimate interest (performance and reducing redundant requests, minimizing load and latency).
 
-7. ### Retention periods
+6. ### Retention Periods
 
-- **Sessions:** while the session remains active or until process restart.
-- **Configuration:** indefinitely until modified or deleted by the user.
-- **Logs (hosted):** recommended ≤30 days with rotation and anonymization.
-- **Odysee response cache:** ≤15 minutes (configurable / manually purgeable by restart or cleanup).
-- **Odysee API tokens/keys (if any):** persist locally until revoked in Odysee or the config file is deleted.
+- **Sessions:** While the session is active or until process restart.
+- **Configuration:** Indefinitely, until the user modifies or deletes it.
+- **Logs (hosted):** Recommended no more than 30 days, with rotation and anonymization.
+- **Odysee Response Cache:** ≤15 minutes (configurable / manually purgeable by user on restart or clear).
+- **Odysee Tokens/API Keys (if any):** Persist locally until revocation on Odysee or deletion of the configuration file.
 
-8. ### Third‑party disclosure
+7. ### Third-Party Disclosure
 
-- **Gateways/blockchain:** read‑only queries to public APIs to obtain transactions.
-- **User‑configured webhook services (Discord, Telegram, etc.):** only the fields the user chooses to send (message, amount, etc.).
-- **Legal requirements:** if requested by a competent authority under a valid court order, we may be obligated to disclose available technical records (logs).
+- **Gateways/blockchain:** Read-only queries to public APIs to fetch transactions.
+- **User-Configured Webhook Services (Discord, Telegram, etc.):** Only fields the user decides to send (message, amount, etc.).
+- **Legal Requirements:** If a competent authority requests under a valid court order, disclosing available technical records (logs) might be obligatory.
 
-9. ### User rights (where applicable)
+8. ### User Rights (where applicable)
 
-- **Access:** read configuration files directly (config/, data/).
-- **Rectification:** edit files or use the interface to correct data.
-- **Erasure:** delete the relevant files, revoke tokens, and restart the application.
-- **Restriction/Objection:** disable features (e.g., do not configure webhooks).
-- **Portability:** data stored in readable/exportable JSON.
+- **Access:** Can directly read configuration files (config/, data/).
+- **Rectification:** Edit files or use the interface to correct data.
+- **Deletion:** Delete corresponding files, revoke tokens, and restart the application.
+- **Limitation/Objection:** Disable functions (e.g., do not configure webhooks).
+- **Portability:** Data is stored in readable and exportable JSON format.
 
-**Odysee source data:**
+**Source Data from Odysee:**
 
-- **Rectification / deletion of channel metadata or transactions:** must be exercised with Odysee.
-- **Access revocation:** revoking the token/key in Odysee immediately invalidates Getty’s query capability.
-- **Local deletion:** removing configuration and cache files purges residual persistence.
+- **Rectification / Deletion of Channel Metadata or Transactions:** Proceed via Odysee.
+- **Revocation of Access:** Revoking the token/key on Odysee immediately invalidates query capability in getty.
+- **Local Deletion:** Deleting configuration files and cache purges any residual persistence.
 
-10. ### Data Security
+9. ### Data Security
 
-Technical measures are applied to protect information, including the use of encryption in transit (HTTPS) for the hosted version and security recommendations for self-hosted instances. However, no system is 100% infallible.
+Technical measures are applied to protect information, including encryption in transit (HTTPS) for the hosted version and security recommendations for self-host instances. However, no system is 100% infallible.
 
-11. ### Open‑source verifiability
+10. ### Policy Modifications
 
-All source code is available in the public repository. The community may audit the absence of hidden trackers and report vulnerabilities or privacy issues through issues or responsible disclosure.
+Any change will be published with a new effective date.
 
-12. ### Policy changes
+11. ### Acceptance
 
-Any change will be published with a new effective date and versioned in the repository. Users should review the version corresponding to the software they are running.
+Using getty implies acceptance of this privacy policy. If any clause is not acceptable, the user can run their own self-host instance and adapt the configuration to their needs, or stop using the hosted version.
 
-13. ### Acceptance
+12. ### Contact
 
-Use of getty implies acceptance of this privacy policy. If any clause is not acceptable, the user may run their own self‑hosted instance and adapt configuration to their needs, or stop using the hosted version.
-
-14. ### Contact
-
-Questions about this privacy policy or data handling? Email: **hello@getty.sh**
+If you have any questions about our privacy policy or how data is collected and processed, email us at: **hello@getty.sh**

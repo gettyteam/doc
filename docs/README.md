@@ -7,7 +7,7 @@ config:
     background: tint-plate
     hero:
       name: Complete app with tools
-      tagline: for Odysee livestreams
+      tagline: for Odysee streamers
       text: Now with channel analytics and more!
       actions:
         - theme: brand

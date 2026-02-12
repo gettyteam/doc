@@ -7,7 +7,7 @@ config:
     background: tint-plate
     hero:
       name: Una aplicación completa
-      tagline: para directos en Odysee
+      tagline: para streamers en Odysee
       text: ¡Ahora con analíticas de canal y más!
       actions:
         - theme: brand

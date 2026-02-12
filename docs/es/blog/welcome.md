@@ -22,6 +22,4 @@ Además de sus productos principales, getty ha innovado con soluciones sencillas
 
 En un mercado en constante evolución, getty será un referente gracias a su adaptabilidad y enfoque en el usuario. Ya sea para principiantes o profesionales, sus productos ofrecen un equilibrio perfecto entre ==funcionalidad== y facilidad de uso. Para los streamers que buscan elevar su contenido, dominar las herramientas de getty no es una opción, sino una necesidad en el camino al éxito.
 
-Getty continuará su desarrollo con más herramientas y funcionalidades para los streamers en Odysee.
-
 ### **λ**

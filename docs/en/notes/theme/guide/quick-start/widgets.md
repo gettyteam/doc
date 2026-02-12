@@ -10,56 +10,50 @@ tags:
 
 ## Last Tip 🌟
 
-Show the last tip received on your live stream with style and in real time. This widget integrates seamlessly with AR (Arweave) tokens from your Odysee wallet, enabling secure and decentralized tips. **Customize it as you like:** adjust colors, size, and font to match your channel's aesthetic.
+Shows the last tip received on your live stream in real time. This widget integrates with the AR (Arweave) token in your Odysee wallet, enabling secure and decentralized tips. **Customize it to your liking:** adjust colors to match your channel's aesthetic.
 
-==The best part?== It works without relying on centralized servers, ensuring greater privacy and availability.
+![getty](https://thumbs.odycdn.com/450e86170c8131ac4061a4e31df2db29.webp)
 
 ## Tip Notification 🔔
 
-Add a unique touch to your stream with visual notifications every time you receive a tip. It supports AR (Arweave) tokens and **anonymous tips**, facilitating transactions without intermediaries. Customize its design with different colors, and fonts to reflect your brand. As a decentralized widget, you avoid external server outages and offer a more fluid experience to your audience.
+Add a unique touch to your stream with notifications every time you receive a tip. Supports AR (Arweave) tokens and **anonymous tips** to your channel, facilitating transactions without intermediaries. Customize its design with different colors, custom sounds, images, or themes for your stream.
 
-## HyperChat Notification + Text-to-Speech 🎤
+![getty](https://thumbs.odycdn.com/c96aa68c6d1a5ee82389eb2d7af3a82c.webp)
 
-Take audience engagement to the next level! This widget not only displays visual notifications when you receive a HyperChat or tip from the Odysee chat, but also includes a **text-to-speech (TTS)** option so messages are read aloud on your stream. Ideal for not missing any important comments, even if you're focused on the game or content.
+## Hyperchat Notification + Text-to-Speech 🎤
 
-All powered by Odysee and AR (Arweave) tokens for secure, decentralized transactions. Customize animations, colors, fonts, and even the TTS voice to make everything fit your style. Being a decentralized widget, you avoid external server issues, ensuring fluidity and complete autonomy.
+The widget not only displays visual notifications when you receive Hyperchats or tips from Odysee, it also includes a **text-to-speech (TTS)** option so messages are read aloud on your stream, ideal for not missing any important comments if you are focused on the content.
 
 ==Text-to-speech (TTS) works with your operating system's voice package==
 
 ## Vertical and Horizontal Chat 💬
 
-Choose between a vertical or horizontal Odysee chat to adapt to your stream's layout. With advanced customization options (colors, fonts, and transparency), this widget improves interaction with your community. It works in a decentralized manner, eliminating the risk of censorship or external server outages. Powered by Odysee, of course!
+Choose between a vertical or horizontal Odysee chat to adapt to your stream layout. With advanced customization options (colors, fonts, and transparency), this widget improves interaction with your community. It is also compatible with your Twitch chat, you just have to log in with your Twitch account and you will have messages from both platforms when you are live on Odysee.
 
-==Keep engagement unlimited!==
+## Live Viewers 👀
 
-## Live Stream Viewers 👀
+The live viewers widget is an essential tool for ==streamers==, allowing to show in real time the number of viewers connected to the stream. This widget helps you check how many people are watching you, thanking their presence or motivating participation when numbers go up, but also serves as a metric to adjust content according to public reaction.
 
-The Live Stream Viewers widget is an essential tool for ==Odysee streamers==, allowing them to display the number of viewers connected to their stream in real time. This widget not only helps engage with their audience, thanking them for their presence or encouraging participation when the number increases, but also serves as an instant metric for adjusting content based on audience reaction.
+## Giveaway by Command 🎉
 
-Many creators integrate it into their overlays to maintain constant feedback, generating engagement and adapting their streams based on their active audience. It can also be a key indicator for detecting peaks in interest or key moments during the live stream, thus optimizing their streaming strategy.
+Create exciting giveaways from the chat with this interactive overlay. Chat participants can join by typing a custom command set by the streamer, everything is managed transparently. Customize messages, colors, and prizes to make it more engaging.
 
-## Command-Based Giveaway System 🎉
-
-Create exciting giveaways directly from the chat with this interactive widget. Participants can join using commands, and everything is managed transparently and decentrally. Customize messages, colors, and prizes to make it more attractive. By not relying on third parties, you ensure impartiality and greater trust in your dynamics.
+![getty](https://thumbs.odycdn.com/05d9cd2906a709b2f8e84862028c7890.webp)
 
 ::: warning
 
-Giveaways in the chat or live stream are 100% managed by the channel owner and not by getty or Odysee.
+Livestream giveaways are 100% managed by the channel owner and not by getty, nor Odysee.
 
 :::
 
 ## Social Media Widget 📱
 
-The social media widget is an essential tool for Odysee streamers who want to maintain a constant connection with their audience beyond their streams. These overlays allow streamers to customize and display links to the streamer's social media accounts on OBS, such as Discord, Telegram, X, and other platforms, directly within their live stream.
+The social media widget is an essential tool for Odysee streamers who want to maintain a constant connection with their audience beyond streaming. These overlays allow customizing and displaying links to the streamer's social networks in OBS, such as Discord, Telegram, X, and other platforms, directly on their live broadcast.
 
-Streamers can configure the social media widget from Getty in the admin, customizing usernames, icons, and links. This not only makes it easier for viewers to follow the streamer on different platforms, but also improves interaction and engagement during the stream.
+## Real-Time Announcements 📣
 
-## Real-time announcements
+A dynamic widget that allows you to display fully customizable banner ads during your live broadcasts. From the administration panel, users can design and schedule custom banners to adapt them to the style and audience of each stream. The widget syncs automatically, updating content in real time without needing to restart the broadcast.
 
-A dynamic widget that allows you to display fully customizable announcements during your live streams. From the admin panel, users can design and schedule custom banners—changing the text, images, colors, and display times—to suit the style and audience of each stream. The widget automatically syncs with the app, updating content in real time without the need to restart the broadcast, ensuring a smooth and professional visual experience while instantly promoting products, events, or key messages.
+## More Options Available
 
-## Advantages of Decentralization 🚀
-
-These widgets are powered by decentralized backend technology ==(Arweave and Odysee)==, resulting in greater security, privacy, and availability. Without centralized servers that can crash or be censored, you and your community enjoy a more free and reliable experience. Plus, advanced customization allows you to maintain a consistent brand identity across all your streams.
-
-==Power your content with tools that truly belong to you!==
+This is just a small sample of all the tools available in getty, which is why we encourage you to try getty. ==Boost your content with tools that truly belong to you!==
